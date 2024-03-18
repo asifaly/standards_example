@@ -3,12 +3,12 @@ import { getFirestore, collection, getDocs } from 'firebase/firestore'
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyADVVqpl9zS0-YygOJ-mFZPbCB9cvArlTM",
+    apiKey: "",
     authDomain: "loan-origination-service.firebaseapp.com",
     projectId: "loan-origination-service",
     storageBucket: "loan-origination-service.appspot.com",
-    messagingSenderId: "640669555808",
-    appId: "1:640669555808:web:bb1accd5df738102717705"
+    messagingSenderId: "",
+    appId: ""
 }
 
 const app = initializeApp(firebaseConfig);
