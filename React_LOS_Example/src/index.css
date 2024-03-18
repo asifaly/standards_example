@@ -1,0 +1,194 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  /* font-family: Urbanist, sans-serif !important; */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+
+.ant-input-number-handler-wrap {
+  display: none !important;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.ant-form-item-control-input-content{
+  display: flex;
+}
+.ant-select{
+  height: 40px !important;
+}
+.ant-picker{
+  height: 40px !important;
+}
+.ant-input, .ant-input-number-input{
+  border-radius: 4px !important;
+  height: 40px !important;
+}
+.ant-select-selector{
+  border-radius: 4px !important;
+}
+/* .ant-modal-content {
+  background-color: #F7F7F7 !important;
+} */
+.ant-input-group-addon{
+  padding: 0 !important;
+}
+/* .ant-input:focus{
+  border: none;
+  box-shadow: none;
+} */
+
+.addbtnblock .ant-row{
+  display: block;
+}
+.addbtnblock .ant-form-item .ant-form-item-label{
+  text-align: left;
+}
+
+/* .ant-space-gap-col-small{ 
+  column-gap: 0px !important
+}
+ .ant-space-align-center{
+  align-items:end !important;
+}
+
+.ant-input-number-handler-wrap{
+  display: none !important;
+} */
+
+.ant-menu-light.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+  background-color: #F3F9FF;
+}
+
+.draftClassStyle .ant-select-selector {
+  color: #FBBF24;
+  /* Change text color to red */
+  background-color: rgba(251, 191, 36, 0.20) !important;
+  border-radius: 14px;
+}
+.filingStatusSelect{
+  border-radius: 20px !important;
+}
+
+.draftClassStyle .ant-select-arrow {
+  color: #FBBF24;
+  /* Change text color to red */
+}
+.ant-form-item-explain-error{
+  text-align: left !important;
+}
+.tabError .ant-tabs-ink-bar{
+  background-color: #FF4545 !important;
+}
+
+.newClassStyle .ant-select-selector {
+  color: #34D399;
+  background-color: #34D39933 !important;
+  border-radius: 14px;
+}
+
+.newClassStyle .ant-select-arrow {
+  color: #34D399;
+}
+
+.defaultclassStyle .ant-select-selector {
+  color: #0000;
+  background-color: #FFF !important;
+  border-radius: 14px;
+}
+
+.cardStyle .ant-card-body {
+  width: 100%;
+}
+
+.emailModal .ant-modal-content {
+  background-color: #F7F7F7;
+}
+
+
+.addonAfter .ant-input-group-addon {
+  background-color: #4E6ACB;
+  border-left: none;
+}
+
+.groupaddon .ant-input-group-addon {
+  width: 50px !important;
+  background-color: transparent !important;
+}
+
+.groupaddon .ant-input {
+  border-right: none;
+}
+
+.emailModal .ant-modal-content {
+  padding: 0;
+}
+
+.ant-pagination-item {
+  border-radius: 20px !important;
+}
+
+.tabmodal .ant-tabs-tab-active{
+  color: #fff !important;
+  background-color: #1677ff !important;
+}
+
+.tabmodal .ant-tabs-tab-active .ant-tabs-tab-btn{
+  color: #fff !important;
+}
+
+.circle-pagination .ant-pagination-item a {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #fff;
+  color: #717E95 !important;
+  border: #E9E9E9 !important;
+  border: 0.4px solid !important;
+  /* Circle background color */
+}
+
+.circle-pagination .ant-pagination-item:hover a{
+  background-color: #fff !important;
+  /* Hover background color */
+  color: #000 !important;
+}
+
+.circle-pagination .ant-pagination-item-active {
+  background-color: #fff !important;
+  /* Active background color */
+  color: #000 !important;
+  border: none;
+}
+
+.circle-pagination .ant-pagination-item-active a {
+  color: black !important;
+}
+
+/* .messageArea .ant-form-item {
+  margin-bottom: 0px !important;
+} */
+
+.ant-form-item-label{
+  font-size: 18px;
+  font-weight: 500;
+  color: #313131;
+}

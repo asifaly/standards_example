@@ -1,0 +1,99 @@
+[
+    {
+        "type": "text",
+        "label": "Inquiry No",
+        "name": "Inquiry No",
+        "placeholder": ""
+    },
+    {
+        "type": "select",
+        "label": "Date of inquiry",
+        "name": "Date of inquiry",
+        "children": [
+            { "label": "United States" },
+            { "label": "Canada" },
+            { "label": "Mexico" }
+        ],
+        "className":"text-left"
+    },
+    {
+        "type": "select",
+        "label": "Source of inquiry",
+        "name": "Source of inquiry",
+        "children": [
+            { "label": "United States" },
+            { "label": "Canada" },
+            { "label": "Mexico" }
+        ],
+        "className":"text-left"
+    },
+    {
+        "type": "select",
+        "label": "Financing Type",
+        "name": "Financing Type",
+        "children": [
+            { "label": "United States" },
+            { "label": "Canada" },
+            { "label": "Mexico" }
+        ],
+        "className":"text-left"
+    },
+    {
+        "type": "text",
+        "label": "PAN Number",
+        "name": "PAN Number",
+        "placeholder": ""
+    },
+    {
+        "type":"button",
+        "buttontype": "defalut",
+        "name": "Fetch GSTIN",
+        "placeholder": "Fetch GSTIN",
+        "className":"text-left self-end "
+    },
+    {
+        "type": "select",
+        "label": "Type of Incorporation",
+        "name": "Type of Incorporation",
+        "children": [
+            { "label": "United States" },
+            { "label": "Canada" },
+            { "label": "Mexico" }
+        ],
+        "className":"text-left"
+    },
+    {
+        "type": "select",
+        "label": "Type of Business",
+        "name": "Type of Business",
+        "children": [
+           
+        ],
+        "className":"text-left"
+    },
+    {
+        "type": "select",
+        "label": "Industry",
+        "name": "Industry",
+        "children": [
+            { "label": "United States" },
+            { "label": "Canada" },
+            { "label": "Mexico" }
+        ],
+        "className":"text-left"
+    },
+    {
+        "type": "text",
+        "label": "Company Name",
+        "name": "Company Name",
+        "placeholder": ""
+    },
+    {
+        "type":"textarea",
+        "name": "Address",
+        "label":"Address",
+        "placeholder": "",
+        "className":"text-left self-end  "
+    }
+
+]
